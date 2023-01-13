@@ -1,5 +1,4 @@
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js'
-import { OrbitControls } from './OrbitControls.js';
 import Perlin from "./perlin.js"
 const perlin = new Perlin()
 import state from './state.js'
@@ -40,8 +39,6 @@ renderer.setPixelRatio(window.devicePixelRatio);
 document.body.appendChild(renderer.domElement);
 
 var grid = new THREE.GridHelper(100, 10);
-
-const controls = new OrbitControls(camera,fgcanvas);
 
 const planegeo = new THREE.PlaneBufferGeometry(200,106,90,90);
 
@@ -102,7 +99,6 @@ camera.position.z = 65;
 		getwavy();
 		getshady();
 		requestAnimationFrame(animate);
-		controls.update();
 		updatemyvert(terrain);
 		updatemyvert(line);
 		renderer.render(scene,camera);
