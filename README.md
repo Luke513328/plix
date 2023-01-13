@@ -1,2 +1,2 @@
-<H2>DOWNLOAD: https://www.patreon.com/PlixForSteam</H2>
+<H4>DOWNLOAD:</h4> https://www.patreon.com/PlixForSteam
 ![image](assets/resource/PLIXFORSTEAM.png)
