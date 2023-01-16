@@ -1281,7 +1281,6 @@ button {
 
 .extras {
     margin-top:200px;
-    /* text-align:center; */
 }
 
 .extras ul {
@@ -1289,8 +1288,6 @@ button {
 }
 
 .inner_content4 {
-    /* align-items:center;
-    justify-content:center; */
     position:relative;
     width:900px;
     display:block;
