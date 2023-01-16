@@ -36,7 +36,7 @@ function showmodal() {
     document.body.style.overflow = "hidden"
     modal.style.animation = "modalscaleup .5s ease-in-out forwards"
     overlay.style.display = "block"
-    overlay.style.animation = "letitblur .5s ease-in-out forwards"
+    // overlay.style.animation = "letitblur .5s ease-in-out forwards"
     modalcon.style.display = "flex"
 }
 
