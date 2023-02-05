@@ -61,54 +61,6 @@ function func2(e) {
     });
 }
 
-
-
-for (const Ks of K) {
-    Ks.addEventListener('mousemove', function () {
-        ttiptext.innerHTML = "Kofi"
-        ttipcontainer.style.opacity = "100%";
-      
-    });
-}
-
-    for (const Ps of P) {
-        Ps.addEventListener('mousemove', function () {
-            document.addEventListener('mousemove',func2);
-            ttiptext.innerHTML = "Patreon"
-            setTimeout(() => {
-                ttipcontainer.style.opacity = "100%";
-              }, 1000)
-        });
-    }
-
-        for (const Ds of D) {
-            Ds.addEventListener('mousemove', function () {
-                document.addEventListener('mousemove',func2);
-                ttiptext.innerHTML = "Discord"
-                setTimeout(() => {
-                    ttipcontainer.style.opacity = "100%";
-                  }, 1000)
-            });
-        }
-        
-        for (const Ks of K) {
-            Ks.addEventListener('mousemleave', function () {
-                document.removeEventListener('mousemove',func2);
-            });
-        }
-        
-            for (const Ps of P) {
-                Ps.addEventListener('mouseleave', function () {
-                    document.removeEventListener('mousemove',func2);
-                });
-            }
-        
-                for (const Ds of D) {
-                    Ds.addEventListener('mouseleave', function () {
-                        document.removeEventListener('mousemove',func2);
-                    });
-                }
-
 document.addEventListener('mousemove',func1);
 
 
