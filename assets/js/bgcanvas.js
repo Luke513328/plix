@@ -1,5 +1,4 @@
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js'
-import { OrbitControls } from './OrbitControls.js';
 import Perlin from "./perlin.js"
 
 const perlin = new Perlin()
@@ -28,7 +27,6 @@ renderer.setSize(innerWidth, innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 document.body.appendChild(renderer.domElement);
 var grid = new THREE.GridHelper(200, 50);
-const controls = new OrbitControls(camera,bgcanvas);
 
 const particlesgeo = new THREE.PlaneBufferGeometry(170,50,50,50);
 
