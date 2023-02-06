@@ -115,7 +115,7 @@ a::selection {
 
 ::-webkit-scrollbar {
     width:20px;
-    background: transparent;
+    background:var(--black1);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -1303,6 +1303,8 @@ button {
 }
 
 .content4 UL {
+    list-style-type:none;
+    text-align:center;
     margin-top: 12px;
     padding:0 20px;
     color: VAR(--white);
